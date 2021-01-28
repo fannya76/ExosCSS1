@@ -1,0 +1,125 @@
+/*----- GRID ------------------*/
+/*-----------------------------*/
+
+.container {
+    margin : 100px;
+    display: grid;
+    width: fit-content;
+    grid-template-areas: 
+    "douze dix dix"
+    "neuf huit sept"
+    "neuf cinq quatre"
+    "trois deux un";
+}
+
+.douze {
+    grid-area: douze;
+}
+
+.dix {
+    grid-area: dix;
+}
+
+.neuf {
+    grid-area: neuf;
+}
+
+.huit {
+    grid-area: huit;
+}
+.sept {
+    grid-area: sept;
+}
+.cinq {
+    grid-area: cinq;
+}
+.quatre {
+    grid-area: quatre;
+}
+.trois {
+    grid-area: trois;
+}
+.deux {
+    grid-area: deux;
+}
+.un {
+    grid-area: un;
+}
+
+/*------------- FLEXBOX -----------------*/
+/*---------------------------------------*/
+
+.flexbox {
+    display:flex;
+    flex-wrap:wrap;
+
+    width: 912px;
+}
+
+.box2 {
+   width: 608px;
+} 
+
+/*------------- STANDARD-----------------*/
+/*---------------------------------------*/
+
+.standard {
+    margin-top:100px;
+    width: 916px;
+}
+.douzeStd {
+    position: relative;
+}
+
+.dixStd {
+    position: relative;
+    right:4px;
+}
+
+.neufStd {
+    position: relative;
+    bottom: 4px;
+}
+
+.huitStd, .cinqStd {
+    position: relative;
+    bottom: 308px;
+    right:4px;
+}
+.cinqStd {
+    position: relative;
+    bottom: 312px;
+    right:4px;
+}
+
+.septStd {
+    position: relative;
+    bottom: 616px;
+    left: 608px;
+}
+
+.quatreStd {
+    position: relative;
+    bottom: 620px;
+    left: 608px;
+}
+
+.troisStd {
+    position: relative;
+    bottom: 317px;
+    right: 308px;
+  
+}
+
+.deuxStd {
+    position: relative;
+    bottom: 624px;
+    left: 304px;
+
+}
+.unStd {
+    position: relative;
+    bottom: 624px;
+    left: 300px;
+
+}

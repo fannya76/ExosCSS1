@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tableau {
+    font-family: Arial,serif;
+    width:60%;
+    margin:auto;
+    color:black;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+thead, tbody {
+    border: 3px solid #b4b8bd;
+}
+
+th, td {
+    border: 3px solid #b4b8bd;
+}
+
+th {
+    font-size:23px;
+    color: white;
+    background: linear-gradient(rgb(71, 63, 63), grey); 
+    padding: 8px;
+    text-align:right;
+}
+
+tr {
+    background-color:#58a7db;
+}
+
+tr:hover {
+    background-color:#b4b8bd;
+}
+
+td {
+    font-size:18px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.cumul {
+    text-align: right;
+}
